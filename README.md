@@ -1,1 +1,0 @@
-# shariah_finance_prototype
