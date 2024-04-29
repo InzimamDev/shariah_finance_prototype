@@ -1,0 +1,126 @@
+    .red > strong{
+      background-color: rgb(225, 73, 73);
+      opacity: 90%;
+      color: white;
+    }
+    .red {
+      background-color: rgb(225, 73, 73);
+      opacity: 90%;
+    }
+
+    .column-h {
+      background-color: #ccc;
+    }
+
+    .green > strong{
+      background-color: rgb(60, 149, 60);
+      opacity: 90%;
+      color: white;
+    }
+    .green {
+      background-color: rgb(60, 149, 60);
+      opacity: 90%;
+      background-blend-mode: color-burn;
+    }
+
+    .analysis-main .container1{
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      align-items: center;
+      padding: 50px;
+    }
+
+    .analysis-main{
+      padding: 5% 1%;
+    }
+
+    .company-title{
+      padding: 20px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .main-container{
+      width: fit-content;
+      padding: 0px 20px;
+      padding-bottom: 20px;
+      border-right: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      border-radius: 15px;
+    }
+
+    .table {
+      border-collapse: none;
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+      margin-bottom: 0;
+    }
+
+    .row {
+      border-bottom: solid 3.5px rgb(255, 255, 255);
+      padding: 0px 12px;
+      display: flex;
+      width: fit-content;
+      align-items: center;
+    }
+
+    .table-headers .column {
+      background-color: #ccc;
+    }
+
+
+    .table> tbody, td, tfoot, th, thead, tr {
+      border: none;
+    }
+
+    .table > tbody>tr>td,
+    .table > thead>tr>th {
+      text-align: center;
+      overflow: scroll;
+      min-width: 180px;
+      max-width: 180px;
+      padding: 5px;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      border-radius: 7px;
+      transition: box-shadow 0.3s;
+    }
+    .table > thead>tr>th {
+      background-color: #ccc;
+    }
+
+
+    .column {
+      overflow: scroll;
+      width: 180px;
+      height: 40px;
+      padding: 5px;
+      margin: 2px;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+      border-radius: 7px;
+      text-align: center;
+      transition: box-shadow 0.3s;
+    }
+
+    .main-container:hover{
+      box-shadow: 0 0 40px rgba(0,0,0,0.5);
+    }
+
+    .table>tbody>tr>td:hover,
+    .table>thead>tr>th:hover,
+    .column:hover {
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    .table-headers {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 10px;
+    }
+
+    .table-title {
+      padding: 10px 0px 10px 10px;
+    }
